@@ -1,14 +1,30 @@
 .johninfo{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: left;
     flex-direction: row;
-    padding: 2rem 6rem;
-    
-    
+    margin: 10rem 20rem;
+    align-items: center; 
+    line-height: 3.5rem;
+}
+.john{
+    width: 30rem;
 }
 .aboutjohn{
     display: flex;
     flex-direction: column;
-    
+    width: 80rem;
+    font-family: 'Times New Roman', sans-serif;
+    line-break: anywhere;
+   
+}
+.aboutjohn p{
+    font-weight:100;
+}
+.download{
+    padding: 1rem;
+    width: 20rem;
+    background-color: #fd6363;
+    color: #fedddf;
+    margin-top: 2rem;
 }
