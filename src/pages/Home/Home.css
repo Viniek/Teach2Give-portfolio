@@ -1,0 +1,14 @@
+.johninfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: row;
+    padding: 2rem 6rem;
+    
+    
+}
+.aboutjohn{
+    display: flex;
+    flex-direction: column;
+    
+}
