@@ -1,33 +1,46 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import "./header.css"
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import "./header.css";
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav>
-    <div
-    className='Menu'>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-      <ul>
+      <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to="/">Works</NavLink>
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Works
+          </NavLink>
         </li>
-      </ul>
-      <ul>
         <li>
-          <NavLink to="/Blog">Blog</NavLink>
+          <NavLink
+            to="/Blog"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Blog
+          </NavLink>
         </li>
-      </ul>
-      <ul>
         <li>
-          <NavLink to="/Contact">Contact</NavLink>
+          <NavLink
+            to="/Contact"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Contact
+          </NavLink>
         </li>
       </ul>
     </nav>
   );
 }
 
-export default Header
+export default Header;
