@@ -38,7 +38,7 @@ function Works() {
 
 <div className='worktext'>
 <h2><b>36 Days of Malayalam type</b></h2>
-<p className='paragraph1'><span><b>2020</b></span>  Typography<br/></p>
+<p className='paragraph1'><span><b>2018</b></span>  Typography<br/></p>
 <p className='paragraph2'>Amet minim deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt sunta .</p>
 </div>
     </section>
