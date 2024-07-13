@@ -8,19 +8,51 @@ function Works() {
    <section className='work'>
 
 
-    <h className='header1'><b>Work</b></h>
+    <h className='header1'>Work</h>
     <section className='work_container'>      
 <img src="https://res.cloudinary.com/dgn62le6w/image/upload/v1720860598/el7tftyhpqdtzh38czg0.png
 " alt="Dashboard" />
 
 <div className='worktext'>
 <h2><b>Designing Dashboards</b></h2>
-<p className='p1'><span><b>2020</b></span>  Dashboard<br/></p>
-<p className='p2'>Amet minim deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt sunta .</p>
+<p className='paragraph1'><span><b>2020</b></span>  Dashboard<br/></p>
+<p className='paragraph2'>Amet minim deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt sunta .</p>
 </div>
     </section>
 
 
+    <section className='work_container'>      
+<img src="https://res.cloudinary.com/dgn62le6w/image/upload/v1720873210/dwksimg2boi9pe5aq0ts.png
+" alt="Dashboard" />
+
+<div className='worktext'>
+<h2><b>Vibrant Potraits of 2020</b></h2>
+<p className='paragraph1'><span><b>2018</b></span>  Illustration<br/></p>
+<p className='paragraph2'>Amet minim deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt sunta .</p>
+</div>
+    </section>
+
+    <section className='work_container'>      
+<img src="https://res.cloudinary.com/dgn62le6w/image/upload/v1720873340/cbkstuslplyc8pldolt5.png
+" alt="Dashboard" />
+
+<div className='worktext'>
+<h2><b>36 Days of Malayalam type</b></h2>
+<p className='paragraph1'><span><b>2020</b></span>  Typography<br/></p>
+<p className='paragraph2'>Amet minim deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt sunta .</p>
+</div>
+    </section>
+
+    <section className='work_container'>      
+<img src="https://res.cloudinary.com/dgn62le6w/image/upload/v1720873408/lpmdfdiqwtpt0wzo7whm.png
+" alt="Dashboard" />
+
+<div className='worktext'>
+<h2><b>Components</b></h2>
+<p className='paragraph1'><span><b>2018</b></span>  Components<br/></p>
+<p className='paragraph2'>Amet minim deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt sunta .</p>
+</div>
+    </section>
    </section>
    </>
   )
