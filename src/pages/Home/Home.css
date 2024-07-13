@@ -57,11 +57,16 @@
   color: #41b8c5;  
   font-weight: 900;
 }
+
+.titles h2{
+    font-size: 1.6rem;
+}
 .postsdesign{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 1rem 20rem;
+    
     
     
 }
