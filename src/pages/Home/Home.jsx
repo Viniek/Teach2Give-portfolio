@@ -8,13 +8,13 @@ function Home() {
     <>
     <div className="johninfo">
     <div className="aboutjohn">
-      <h1 className="heading">Hi, I am John, <br />Creative Technologist</h1>
+      <h1 className="heading" id="heading">Hi, I am John, <br />Creative Technologist</h1>
 
-      <p>Amet minim mollit non deserunt ulliamco est sit aliqua dolor do amet <br /> Amet minim mollit non deserunt ulliamco est sit aliqua dolor do amet <br />
+      <p  id="heading">Amet minim mollit non deserunt ulliamco est sit aliqua dolor do amet <br /> Amet minim mollit non deserunt ulliamco est sit aliqua dolor do amet <br />
       consequat sunt nonstrud amet
       </p> 
 
-      <button className="download">Download Resume</button>
+      <button className="download" >Download Resume</button>
     </div>
 
     <img src="https://res.cloudinary.com/dukptptve/image/upload/v1720798459/nost2u1thpsv62ewjisr.png   " alt="john"  className="john"/>
@@ -22,12 +22,14 @@ function Home() {
 
 <section className="post">  
 <div className="titles">
-  <h2>Recent posts</h2>
+  <h2 className="johnheadingtitle">Recent posts</h2>
   <p>View all</p>
-</div>
-<div className="postsdesign">
+</div>  
+
+<div className="postsdesign"> 
+
 <div className="makingdesign">
-<h2 style={{ color: '#3b3c4f', fontSize:"3rem" }}>
+<h2 className="designsheadings">
   Making a design system from  scratch
 </h2>
 
@@ -40,7 +42,7 @@ function Home() {
 
 
 <div className="makingdesign">
-<h2 style={{ color: '#3b3c4f', fontSize:"3rem" }}>Creating pixel perfect icons in Figma</h2>
+<h2  className="designsheadings">Creating pixel perfect icons in Figma</h2>
   <div className="designdetails">
 <p>12 Feb 2020</p> <p>|</p> <p>Figma Icon Design</p>
   </div>
