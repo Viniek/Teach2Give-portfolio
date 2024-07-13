@@ -1,0 +1,71 @@
+.johninfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: row;
+    margin: 10rem 20rem;
+    align-items: center; 
+    line-height: 3.5rem;
+}
+.heading{
+    font-size: 5rem;
+    line-height: 4.5rem;
+}
+.john{
+    width: 60rem;
+}
+.aboutjohn{
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    font-family: 'Times New Roman', sans-serif;
+    line-break: anywhere;
+   
+}
+.aboutjohn p{
+    font-weight:100;
+}
+.download{
+    padding: 1.6rem;
+    width: 25rem;
+    background-color: #fd6363;
+    color: #fedddf;
+    margin-top: 2rem;
+    border: none;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.post{
+    background-color: #edf6f9;
+    padding: 3rem 0;
+}
+.titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20rem;align-items: center;
+}
+.titles p{
+  color: #78adba;  
+  font-weight: 400;
+}
+.postsdesign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 20rem;
+    
+    
+}
+.makingdesign{
+    background-color: white;
+    width: 43rem;
+    padding: 2rem;
+}
+.designdetails{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
