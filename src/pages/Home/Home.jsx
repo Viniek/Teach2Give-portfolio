@@ -27,7 +27,10 @@ function Home() {
 </div>
 <div className="postsdesign">
 <div className="makingdesign">
-  <h2>Making a design system from <br /> scratch</h2>
+<h2 style={{ color: '#3b3c4f', fontSize:"3rem" }}>
+  Making a design system from  scratch
+</h2>
+
   <div className="designdetails">
 <p>12 Feb 2020</p> <p>|</p> <p>Design,pattern</p>
   </div>
@@ -37,7 +40,7 @@ function Home() {
 
 
 <div className="makingdesign">
-  <h2>Creastin pixel perfect icons in <br />Figma</h2>
+<h2 style={{ color: '#3b3c4f', fontSize:"3rem" }}>Creating pixel perfect icons in Figma</h2>
   <div className="designdetails">
 <p>12 Feb 2020</p> <p>|</p> <p>Figma Icon Design</p>
   </div>
