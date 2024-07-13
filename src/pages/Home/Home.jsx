@@ -12,7 +12,7 @@ function Home() {
 
       <p>Amet minim mollit non deserunt ulliamco est sit aliqua dolor do amet <br /> Amet minim mollit non deserunt ulliamco est sit aliqua dolor do amet <br />
       consequat sunt nonstrud amet
-      </p>
+      </p> 
 
       <button className="download">Download Resume</button>
     </div>

@@ -13,7 +13,8 @@ function Header() {
         <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
-        <li><NavLink to ="/"></NavLink></li>
+
+        
         <li>
           <NavLink
             to="/Works"
