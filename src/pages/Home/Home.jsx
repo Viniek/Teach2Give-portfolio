@@ -27,7 +27,7 @@ function Home() {
 </div>
 <div className="postsdesign">
 <div className="makingdesign">
-  <h2>Making a design system from scratch</h2>
+  <h2>Making a design system from <br /> scratch</h2>
   <p className="designdate">12 Feb 2020   |   Design Pattern</p>
 
   <p className="designcontent">Amet minium mollit non deserut uliaamco est sit <br /> aliqua dolor do amet sint. Velit officia consequat <br />  duis enim velit mollit.Exerciaation veniam <br />consequat sunt nonstrud amet.</p>
@@ -35,7 +35,7 @@ function Home() {
 
 
 <div className="makingdesign">
-  <h2>Making a design system from scratch</h2>
+  <h2>Creastin pixel perfect icons in <br />Figma</h2>
   <p className="designdate">12 Feb 2020   |   Design Pattern</p>
 
   <p className="designcontent">Amet minium mollit non deserut uliaamco est sit <br /> aliqua dolor do amet sint. Velit officia consequat <br />  duis enim velit mollit.Exerciaation veniam <br />consequat sunt nonstrud amet.</p>

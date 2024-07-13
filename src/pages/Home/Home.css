@@ -31,6 +31,7 @@
 
 .post{
     background-color: #edf6f9;
+    padding: 3rem 0;
 }
 .titles{
     display: flex;
@@ -47,4 +48,11 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 1rem 20rem;
+    
+    
+}
+.makingdesign{
+    background-color: white;
+    width: 43rem;
+    padding: 2rem;
 }
