@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Works() {
-  return (
-    <div>Works</div>
-  )
+  return <div>Works</div>;
 }
 
-export default Works
+export default Works;
