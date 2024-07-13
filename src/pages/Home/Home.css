@@ -1,6 +1,6 @@
 .johninfo{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: left;
     flex-direction: row;
     margin: 10rem 20rem;
