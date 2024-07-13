@@ -7,8 +7,12 @@
     align-items: center; 
     line-height: 3.5rem;
 }
+.heading{
+    font-size: 5rem;
+    line-height: 4.5rem;
+}
 .john{
-    width: 30rem;
+    width: 60rem;
 }
 .aboutjohn{
     display: flex;
@@ -22,11 +26,14 @@
     font-weight:100;
 }
 .download{
-    padding: 1rem;
-    width: 20rem;
+    padding: 1.6rem;
+    width: 25rem;
     background-color: #fd6363;
     color: #fedddf;
     margin-top: 2rem;
+    border: none;
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 .post{
@@ -55,4 +62,10 @@
     background-color: white;
     width: 43rem;
     padding: 2rem;
+}
+.designdetails{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
 }
