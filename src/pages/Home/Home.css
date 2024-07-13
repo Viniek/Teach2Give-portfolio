@@ -8,8 +8,13 @@
     line-height: 3.5rem;
 }
 .heading{
-    font-size: 5rem;
+    font-size: 4.7rem;
     line-height: 4.5rem;
+    color: #3b3c4f;
+
+}
+*{
+    font-family: sans-serif;
 }
 .john{
     width: 60rem;
@@ -18,7 +23,7 @@
     display: flex;
     flex-direction: column;
     width: 80rem;
-    font-family: 'Times New Roman', sans-serif;
+    font-family: sans-serif;
     line-break: anywhere;
    
 }
@@ -45,16 +50,23 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0 20rem;align-items: center;
+    font-family: sans-serif;
+    font-size: 1.6rem;
 }
 .titles p{
-  color: #78adba;  
-  font-weight: 400;
+  color: #41b8c5;  
+  font-weight: 900;
+}
+
+.titles h2{
+    font-size: 1.6rem;
 }
 .postsdesign{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 1rem 20rem;
+    
     
     
 }
@@ -68,4 +80,8 @@
     align-items: center;
     gap: 2rem;
     margin: 1.5rem 0;
+   
+}
+.designdetails p{
+    font-weight: 530;
 }
