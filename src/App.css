@@ -19,6 +19,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   max-width: 112.5em;
+  margin: 0 auto;
 }
 
 p,
@@ -33,4 +34,5 @@ h6 {
 .app {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }

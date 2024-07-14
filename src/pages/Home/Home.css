@@ -1,249 +1,149 @@
-.johninfo{
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    flex-direction: row;
+.johninfo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 3rem 6rem;
+  align-items: center;
+  line-height: 3.5rem;
+  max-width: 100%;
+}
+
+.heading {
+  font-size: 2.5rem;
+  line-height: 4rem;
+  color: #2b2e44;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 60em) {
+  .johninfo {
     margin: 10rem 20rem;
-    align-items: center; 
-    line-height: 3.5rem;
-}
-
-@media screen and (max-width: 69.75em){
-   .johninfo{
-    margin: 7rem 15rem;
-   } 
-}
-
-@media screen and (max-width: 63.5em){
-  .johninfo{
-    margin: 5rem 10rem;
-  }  
-}
-
-@media screen and (max-width: 57em){
-  .johninfo{
-    margin: 3rem 6rem;
-  }  
-}
-@media screen and (max-width: 45.5em){
-    .johninfo{
-        margin: 1rem 4rem;
-    }
-}
-
-@media screen and (max-width: 36em){
-   .johninfo{
-display: flex;
-flex-direction: column-reverse;
-justify-content: center;
-align-items: center;
-
-   }
-   
-   #heading{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    line-break: auto;
-    margin: auto;
-   }
-
-   .download{
-    display: none;
-    justify-content: center;
-   }
-
-}
-.heading{
+  }
+  .heading {
     font-size: 4.7rem;
-    line-height: 4rem;
-    color: #2b2e44;
-
-}
-@media screen and (max-width: 79.5em){
-    .heading{
-        font-size: 4rem;
-    }
-}
-@media screen and (max-width: 70.5em){
-    .heading{
-        font-size: 3rem;
-    }
+  }
 }
 
-@media screen and (max-width:60em){
-    .heading{
-        font-size: 2.5rem;
-    }
-    .aboutjohn{
-        line-height: 3rem;
-    }
-}
-.designsheadings{
-    color: #3b3c4f;
-    font-size: 2.6rem;
-}
-*{
-    font-family: sans-serif;
-}
-.john{
-    width: 60rem;
+.john {
+  width: 100%;
+  max-width: 60rem;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 2rem;
 }
 
-@media screen and (max-width: 36em){
-    .john{
-     width: 30rem;
-     margin: 0;
-    }
- }
-.aboutjohn{
-    display: flex;
-    flex-direction: column;
-    width: 80rem;
-    font-family: sans-serif;
-    line-break: anywhere;
-   
+.aboutjohn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 80rem;
+  line-break: anywhere;
 }
-.aboutjohn p{
-    font-weight:100;
+
+.aboutjohn p {
+  font-weight: 100;
 }
-@media screen and (max-width: 32.75em){
-   .aboutjohn p{
-padding: 0 6rem;
-   } 
+
+.download {
+  padding: 1.6rem;
+  width: 25rem;
+  background-color: #fd6363;
+  color: #fedddf;
+  margin-top: 2rem;
+  border: none;
+  font-size: 2rem;
+  font-weight: 800;
 }
-.download{
-    padding: 1.6rem;
-    width: 25rem;
-    background-color: #fd6363;
-    color: #fedddf;
-    margin-top: 2rem;
-    border: none;
-    font-size: 2rem;
-    font-weight: 800;
+
+.post {
+  width: 100%;
+  background-color: #edf6f9;
+  padding: 3rem;
 }
-@media screen and (max-width: 36em){
-    .download{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       margin-left: 26rem;
-    }
+
+.titles {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4rem;
+  align-items: center;
+  font-size: 1.6rem;
+  max-width: 100%;
 }
-.post{
-    background-color: #edf6f9;
-    padding: 3rem 0;
-}
-.titles{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 20rem;align-items: center;
-    font-family: sans-serif;
-    font-size: 1.6rem;
-}
-.titles p{
-  color: #41b8c5;  
+
+.titles p {
+  color: #41b8c5;
   font-weight: 900;
 }
 
-.titles h2{
-    font-size: 1.6rem;
+.postsdesign {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 4rem;
+  gap: 2rem;
+  max-width: 100%;
 }
 
-
-.postsdesign{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1rem 20rem;
+.makingdesign {
+  background-color: white;
+  width: 100%;
+  max-width: 43rem;
+  padding: 2rem;
 }
 
-@media screen and (max-width: 79.5em){
-    .postsdesign{
-        display: flex;
-        margin: 1rem 15rem;
-    }
-}
-@media screen and (max-width: 73.75em){
-    .postsdesign{
-        margin: 1rem 10rem;
-    }
+.designsheadings {
+  color: #3b3c4f;
+  font-size: 2.6rem;
 }
 
-@media screen and (max-width:68.25em){
- .postsdesign{
-    margin: 1rem 5rem;
-
- }   
-
+.designdetails {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: #666;
 }
-@media screen and (max-width: 60.75em){
-    .postsdesign{
-        margin: 1rem 2rem;
-    }
-}
-@media screen and (max-width: 57em){
-  .postsdesign{
-    display: flex;
+
+@media screen and (max-width: 36em) {
+  .johninfo {
+    flex-direction: column-reverse;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    gap: 5rem;
   }
-  .titles{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    width: 100%;
+
+  .download {
+    display: none;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .john {
+    max-width: 30rem;
     margin: 0;
   }
-  .titles p{
-  display: none;
 
-  }  
-}
-.makingdesign{
-    background-color: white;
-    width: 43rem;
-    padding: 2rem;
-}
-@media screen and (max-width: 28.5em){
-   .makingdesign{
-    width: 40rem;
-   } 
-}
-@media screen and (max-width: 24.5em){
-.makingdesign{
-    width: 35rem;
-}    
-}
-@media screen and (max-width: 21.5em){
-    .makingdesign{
-        width: 30rem;
-    }
-}
+  .aboutjohn p {
+    padding: 0 6rem;
+  }
 
-@media screen and (max-width: 18.75em){
-   .makingdesign{
-    width: 25rem;
-   } 
-}
-
-@media screen and (max-width: 15em){
-   .makingdesign{
-    width: 19rem;
-    padding: 1rem;
-   } 
-}
-.designdetails{
-    display: flex;
+  .postsdesign {
+    flex-direction: column;
     align-items: center;
-    gap: 2rem;
-    margin: 1.5rem 0;
-   
-}
-.designdetails p{
-    font-weight: 530;
+  }
+
+  .titles {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .titles p {
+    display: none;
+  }
+
+  .makingdesign {
+    width: 100%;
+    max-width: 25rem;
+  }
 }

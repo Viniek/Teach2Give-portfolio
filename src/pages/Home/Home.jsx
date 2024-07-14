@@ -4,7 +4,7 @@ import React from "react";
 
 function Home() {
   return (
-    <>
+    <div >
       <div className="johninfo">
         <div className="aboutjohn">
           <h1 className="heading" id="heading">
@@ -72,21 +72,23 @@ function Home() {
       </section>
 
       <section className="py-8">
-        <h1 className="text-3xl font-bold mb-8 text-center">Featured works</h1>
+        <h1 className="text-3xl font-bold mb-8 text-center ">Featured works</h1>
 
         <div className="max-w-4xl mx-auto">
-          <div className="mb-8 flex">
+          <div className="mb-8 flex flex-col md:flex-row">
             <img
-              className="w-32 h-32 object-cover rounded-lg mr-4"
+              className="w-full md:w-[40%] h-auto object-cover rounded-lg mb-4 md:mb-0 md:mr-4"
               src="https://res.cloudinary.com/dgn62le6w/image/upload/v1720860598/el7tftyhpqdtzh38czg0.png"
               alt="Designing Dashboards"
             />
             <div className="flex flex-col justify-center">
-              <h2 className="text-2xl font-bold">Designing Dashboards</h2>
-              <p className="text-gray-600">
+              <h2 className="text-2xl font-bold text-center md:text-left">
+                Designing Dashboards
+              </h2>
+              <p className="text-gray-600 text-center md:text-left">
                 <span className="font-bold">2020</span> - Dashboard
               </p>
-              <p className="mt-2">
+              <p className="mt-2 leading-relaxed text-center md:text-left">
                 Amet minim deserunt ullamco est sit aliqua dolor do amet sint.
                 Velit officia consequat duis enim velit mollit. Exercitation
                 veniam consequat sunt sunta.
@@ -94,18 +96,20 @@ function Home() {
             </div>
           </div>
 
-          <div className="mb-8 flex">
+          <div className="mb-8 flex flex-col md:flex-row">
             <img
-              className="w-32 h-32 object-cover rounded-lg mr-4"
+              className="w-full md:w-[40%] h-auto object-cover rounded-lg mb-4 md:mb-0 md:mr-4"
               src="https://res.cloudinary.com/dgn62le6w/image/upload/v1720873210/dwksimg2boi9pe5aq0ts.png"
               alt="Vibrant Portraits of 2020"
             />
             <div className="flex flex-col justify-center">
-              <h2 className="text-2xl font-bold">Vibrant Portraits of 2020</h2>
-              <p className="text-gray-600">
+              <h2 className="text-2xl font-bold text-center md:text-left">
+                Vibrant Portraits of 2020
+              </h2>
+              <p className="text-gray-600 text-center md:text-left">
                 <span className="font-bold">2018</span> - Illustration
               </p>
-              <p className="mt-2">
+              <p className="mt-2 leading-relaxed text-center md:text-left">
                 Amet minim deserunt ullamco est sit aliqua dolor do amet sint.
                 Velit officia consequat duis enim velit mollit. Exercitation
                 veniam consequat sunt sunta.
@@ -113,18 +117,20 @@ function Home() {
             </div>
           </div>
 
-          <div className="mb-8 flex">
+          <div className="mb-8 flex flex-col md:flex-row">
             <img
-              className="w-32 h-32 object-cover rounded-lg mr-4"
+              className="w-full md:w-[40%] h-auto object-cover rounded-lg mb-4 md:mb-0 md:mr-4"
               src="https://res.cloudinary.com/dgn62le6w/image/upload/v1720873340/cbkstuslplyc8pldolt5.png"
               alt="36 Days of Malayalam type"
             />
             <div className="flex flex-col justify-center">
-              <h2 className="text-2xl font-bold">36 Days of Malayalam type</h2>
-              <p className="text-gray-600">
+              <h2 className="text-2xl font-bold text-center md:text-left">
+                36 Days of Malayalam type
+              </h2>
+              <p className="text-gray-600 text-center md:text-left">
                 <span className="font-bold">2020</span> - Typography
               </p>
-              <p className="mt-2">
+              <p className="mt-2 leading-relaxed text-center md:text-left">
                 Amet minim deserunt ullamco est sit aliqua dolor do amet sint.
                 Velit officia consequat duis enim velit mollit. Exercitation
                 veniam consequat sunt sunta.
@@ -133,7 +139,7 @@ function Home() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
