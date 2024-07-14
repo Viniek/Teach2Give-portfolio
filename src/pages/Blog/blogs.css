@@ -1,11 +1,13 @@
 .blogs {
   font-family: Arial, sans-serif;
+   
 }
 
 .blogs-title {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
+ 
 }
 
 @media screen and (max-width: 18.563em) {

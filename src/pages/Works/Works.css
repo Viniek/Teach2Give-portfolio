@@ -64,3 +64,123 @@
   color: #2c2f66;
   letter-spacing: 0.2px;
 }
+.landing{
+    display:none;
+}
+/* responsiveness */
+@media screen and (max-width:73.5625em){
+    .work{
+        
+        margin:1rem 15rem;
+    }
+}
+@media screen and (max-width:66.75em){
+    .work{
+        margin:1rem 10rem;
+    }
+}
+@media screen and (max-width:60.625em){
+    .work{
+        margin:1rem 3rem;
+    }
+}
+@media screen and (max-width:53.9375em){
+    .work{
+        margin:.8rem 2rem;
+    } 
+}
+@media screen and (max-width:47em) {
+    .work_container img{
+        width:17rem
+    }
+}
+
+@media screen and (max-width:43.75em) {
+    .work_container img{
+        width:20rem
+    }
+}
+@media screen and (max-width:43.75em) {
+    .work_container img{
+        width:15rem
+    }
+}
+@media screen and (max-width:38.9375em) {
+    .landing{
+        display:flex;
+        }
+        .work_container_default{
+            display:none;
+        }
+
+    .work_container{
+      display: flex;
+      flex-direction: column;  
+    }
+    .work_container img{
+        width:100%;
+    }
+    .work{
+        margin:.6rem 1rem;
+    }
+}
+@media screen and (max-width:19.25em){
+    .work{
+        margin:.4rem 2rem;
+    } 
+    .paragraph2{
+        font-size: 14px; 
+    }
+    .worktext h2{
+        font-size: 20px;
+    }
+    .paragraph1{
+        font-size: 18px;
+    }
+    .paragraph1 span{
+        font-size: 18px;  
+    }
+}
+@media screen and (max-width:15em) {
+
+    
+    .paragraph1{
+       display: flex;
+       flex-direction: column;
+    }
+    .paragraph1 span{
+      width:8rem;
+        align-items: center;
+       
+    }
+    .work{
+        margin:.2rem 1.5rem;
+    } 
+}
+@media screen and (max-width:10.5em) {
+    .worktext h2{
+        font-size: 16px;
+    }
+    .paragraph2{
+        font-size: 8px; 
+    }
+   
+    .paragraph1{
+        font-size: 12px;
+    }
+    .paragraph1 span{
+        font-size: 13px;  
+        width:6rem;
+    }
+    .work{
+        margin:.1rem 1rem;
+    } 
+}
+@media screen and (max-width:30.9375em) {
+   .landing{
+    display:flex;
+    }
+    .work_container_default{
+        display:none;
+    }
+}

@@ -21,12 +21,12 @@ function Header() {
             Home
           </NavLink>
         </li>
-
         <li>
           <NavLink
-            to="/Works"
+            to="/works"
             end
-            className={({ isActive }) => (isActive ? "active" : "")}>
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
             Works
           </NavLink>
         </li>
