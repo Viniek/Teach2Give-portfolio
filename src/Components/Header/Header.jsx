@@ -13,30 +13,34 @@ function Header() {
         <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
+        <li>
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) => (isActive ? "active" : "")}>
+            Home
+          </NavLink>
+        </li>
 
-        
         <li>
           <NavLink
             to="/Works"
             end
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
+            className={({ isActive }) => (isActive ? "active" : "")}>
             Works
           </NavLink>
         </li>
         <li>
           <NavLink
             to="/Blog"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
+            className={({ isActive }) => (isActive ? "active" : "")}>
             Blog
           </NavLink>
         </li>
         <li>
           <NavLink
             to="/Contact"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
+            className={({ isActive }) => (isActive ? "active" : "")}>
             Contact
           </NavLink>
         </li>
