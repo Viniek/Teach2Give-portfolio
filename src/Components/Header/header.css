@@ -7,7 +7,7 @@ nav {
   justify-content: flex-end;
   align-items: center;
   position: sticky;
-   font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
   top: 0;
   padding: 1rem;
 }
