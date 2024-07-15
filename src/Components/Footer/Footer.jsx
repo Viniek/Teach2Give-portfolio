@@ -8,21 +8,25 @@ function Footer() {
         <div className="flex justify-center space-x-6 mb-4">
           <a
             href="#"
+            aria-label="Facebook"
             className="text-gray-600 hover:text-gray-800 transition duration-200">
             <FaFacebookF size="1.5em" />
           </a>
           <a
             href="#"
+            aria-label="Instagram"
             className="text-gray-600 hover:text-gray-800 transition duration-200">
             <FaInstagram size="1.5em" />
           </a>
           <a
             href="#"
+            aria-label="Twitter"
             className="text-gray-600 hover:text-gray-800 transition duration-200">
             <FaTwitter size="1.5em" />
           </a>
           <a
             href="#"
+            aria-label="Github"
             className="text-gray-600 hover:text-gray-800 transition duration-200">
             <FaGithub size="1.5em" />
           </a>
