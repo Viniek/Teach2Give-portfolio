@@ -8,11 +8,11 @@ function Works() {
    <section className='work'>
 
 
-    <h className='header1'>Work</h>
+    <header className='header1'>Work</header>
     
     <section className='work_container'>      
 <img src="https://res.cloudinary.com/dgn62le6w/image/upload/v1720860598/el7tftyhpqdtzh38czg0.png
-" alt="Dashboard" />
+" alt="designingimg" />
 <div className='worktext'>
 <h2><b>Designing Dashboards</b></h2>
 <p className='paragraph1'><span><b>2020</b></span>  Dashboard<br/></p>
@@ -23,7 +23,7 @@ function Works() {
 <section className='work_container_default'>
     <section className='work_container'>      
 <img src="https://res.cloudinary.com/dgn62le6w/image/upload/v1720873210/dwksimg2boi9pe5aq0ts.png
-" alt="Dashboard" />
+" alt="vibrantimg" />
 <div className='worktext'>
 <h2><b>Vibrant Potraits of 2020</b></h2>
 <p className='paragraph1'><span><b>2018</b></span>  Illustration<br/></p>
@@ -33,7 +33,7 @@ function Works() {
 
     <section className='work_container'>      
 <img src="https://res.cloudinary.com/dgn62le6w/image/upload/v1720873340/cbkstuslplyc8pldolt5.png
-" alt="Dashboard" />
+" alt="malayamimg" />
 
 <div className='worktext'>
 <h2><b>36 Days of Malayalam type</b></h2>
