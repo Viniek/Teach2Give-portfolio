@@ -1,87 +1,149 @@
-.johninfo{
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    flex-direction: row;
+.johninfo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 3rem 6rem;
+  align-items: center;
+  line-height: 3.5rem;
+  max-width: 100%;
+}
+
+.heading {
+  font-size: 2.5rem;
+  line-height: 4rem;
+  color: #2b2e44;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 60em) {
+  .johninfo {
     margin: 10rem 20rem;
-    align-items: center; 
-    line-height: 3.5rem;
-}
-.heading{
+  }
+  .heading {
     font-size: 4.7rem;
-    line-height: 4.5rem;
-    color: #3b3c4f;
-
-}
-*{
-    font-family: sans-serif;
-}
-.john{
-    width: 60rem;
-}
-.aboutjohn{
-    display: flex;
-    flex-direction: column;
-    width: 80rem;
-    font-family: sans-serif;
-    line-break: anywhere;
-   
-}
-.aboutjohn p{
-    font-weight:100;
-}
-.download{
-    padding: 1.6rem;
-    width: 25rem;
-    background-color: #fd6363;
-    color: #fedddf;
-    margin-top: 2rem;
-    border: none;
-    font-size: 2rem;
-    font-weight: 800;
+  }
 }
 
-.post{
-    background-color: #edf6f9;
-    padding: 3rem 0;
+.john {
+  width: 100%;
+  max-width: 60rem;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 2rem;
 }
-.titles{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 20rem;align-items: center;
-    font-family: sans-serif;
-    font-size: 1.6rem;
+
+.aboutjohn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 80rem;
+  line-break: anywhere;
 }
-.titles p{
-  color: #41b8c5;  
+
+.aboutjohn p {
+  font-weight: 100;
+}
+
+.download {
+  padding: 1.6rem;
+  width: 25rem;
+  background-color: #fd6363;
+  color: #fedddf;
+  margin-top: 2rem;
+  border: none;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.post {
+  width: 100%;
+  background-color: #edf6f9;
+  padding: 3rem;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4rem;
+  align-items: center;
+  font-size: 1.6rem;
+  max-width: 100%;
+}
+
+.titles p {
+  color: #41b8c5;
   font-weight: 900;
 }
 
-.titles h2{
-    font-size: 1.6rem;
+.postsdesign {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 4rem;
+  gap: 2rem;
+  max-width: 100%;
 }
-.postsdesign{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 1rem 20rem;
-    
-    
-    
+
+.makingdesign {
+  background-color: white;
+  width: 100%;
+  max-width: 43rem;
+  padding: 2rem;
 }
-.makingdesign{
-    background-color: white;
-    width: 43rem;
-    padding: 2rem;
+
+.designsheadings {
+  color: #3b3c4f;
+  font-size: 2.6rem;
 }
-.designdetails{
-    display: flex;
+
+.designdetails {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+@media screen and (max-width: 36em) {
+  .johninfo {
+    flex-direction: column-reverse;
+    justify-content: center;
     align-items: center;
-    gap: 2rem;
-    margin: 1.5rem 0;
-   
-}
-.designdetails p{
-    font-weight: 530;
+  }
+
+  .download {
+    display: none;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .john {
+    max-width: 30rem;
+    margin: 0;
+  }
+
+  .aboutjohn p {
+    padding: 0 6rem;
+  }
+
+  .postsdesign {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titles {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .titles p {
+    display: none;
+  }
+
+  .makingdesign {
+    width: 100%;
+    max-width: 25rem;
+  }
 }

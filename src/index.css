@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 *,
 *::after,
 *::before {
@@ -18,8 +21,5 @@ body {
 body {
   font-size: 1.6rem;
   line-height: 1.5;
-  max-width: 112.5em;
-  }
-  
-  p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;}
+  max-width: 100vw;
+}

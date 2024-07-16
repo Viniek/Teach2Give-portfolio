@@ -1,62 +1,68 @@
-*{font-family: sans-serif;}
-
-
-.work{
-    margin: 1rem 20rem;
-}
-.work_container{
-    display:flex;
-    flex-direction: row;
-    padding-bottom: 3rem;
-    border-bottom: 2px #efefef solid;
-    gap:0;
-    margin-top:5rem;
+* {
+  font-family: sans-serif;
 }
 
-.header1{
-    font-size: 2.6rem;
-    color:#22253c;
-    display: flex;   
-    font-weight:900;
-    padding-left: .4rem;
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
 }
-.work_container img{
-    width:35rem
-}
-
-.worktext{  
-    padding:0 3rem;
-}
-.worktext h2{
-    font-size: 29px;
-    display: flex;
-    color:#22253c;
-   font-weight: 900;
+.work_container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3rem;
+  border-bottom: 2px #efefef solid;
+  gap: 0;
+  margin-top: 5rem;
 }
 
-.paragraph1{
-    color:#637d96;
-    display: flex;
-    flex-direction: row;
-    font-size: 22px;
-    font-weight: 545;
-    gap:2rem;
-    margin: 1.7rem 0;
+.header1 {
+  font-size: 2.6rem;
+  color: #22253c;
+  display: flex;
+  font-weight: 900;
+  padding-left: 0.4rem;
 }
-.paragraph1 span{
-    background-color:#112647;
-    color:#cde4ee;
-    border-radius: 20px;
-    padding:.1px 8px; 
-    font-size: 20px; 
-    padding: 0.1rem 1.4rem;
+.work_container img {
+  width: 35rem;
 }
-.paragraph2{
- font-weight: 545;
-   font-size: 20px; 
-   line-height: normal;
-   color:#2c2f66;
-   letter-spacing: .2px;
+
+.worktext {
+  padding: 0 3rem;
+}
+.worktext h2 {
+  font-size: 29px;
+  display: flex;
+  color: #22253c;
+  font-weight: 900;
+}
+
+.paragraph1 {
+  color: #637d96;
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+  font-weight: 545;
+  gap: 2rem;
+  margin: 1.7rem 0;
+}
+.paragraph1 span {
+  background-color: #112647;
+  color: #cde4ee;
+  border-radius: 20px;
+  padding: 0.1px 8px;
+  font-size: 20px;
+  padding: 0.1rem 1.4rem;
+}
+.paragraph2 {
+  font-weight: 545;
+  font-size: 20px;
+  line-height: normal;
+  color: #2c2f66;
+  letter-spacing: 0.2px;
 }
 .landing{
     display:none;

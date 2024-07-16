@@ -7,6 +7,7 @@ nav {
   justify-content: flex-end;
   align-items: center;
   position: sticky;
+   font-family: Arial, sans-serif;
   top: 0;
   padding: 1rem;
 }
@@ -49,7 +50,7 @@ nav .menu span {
   border-radius: 0.2rem;
 }
 
-@media (max-width: 19.75em) {
+@media (max-width: 30.18em) {
   nav .menu {
     display: flex;
   }
